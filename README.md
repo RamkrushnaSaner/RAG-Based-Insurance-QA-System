@@ -10,3 +10,12 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system for an
 - Completeness checking and auto-expansion
 
 ## 📁 Project Structure
+rag-project/
+│
+├── data/
+│   ├── original_policy.pdf        # Original policy prospectus (PDF)
+│   └── policy_text.txt            # Extracted text from the PDF
+│
+├── app.py                         # Your full RAG code (Sections 1–12)
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project description & usage
